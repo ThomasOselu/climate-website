@@ -1,13 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate and Communities Alliance</title>
+  <link rel="stylesheet" href="App.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Climate and Communities Alliance</h1>
+      <p>Building sustainable, climate-resilient communities in Kenya</p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to CCA</h2>
+      <p>
+        Climate and Communities Alliance is a Kenyan-based NGO dedicated to creating sustainable, climate-resilient communities. Join us in building a greener, more sustainable future for Kenya.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p><strong>Mission:</strong> Empower Kenyan communities by promoting sustainable environmental practices and strengthening resilience to climate impacts.</p>
+      <p><strong>Vision:</strong> A Kenya where communities thrive with knowledge and tools to combat climate change.</p>
+    </section>
+
+    <section id="programs">
+      <h2>Our Programs</h2>
+      <ul>
+        <li><strong>Environmental Education:</strong> Promoting environmental awareness and sustainable practices.</li>
+        <li><strong>Climate-Resilient Agriculture:</strong> Training farmers to adopt climate-smart techniques.</li>
+        <li><strong>Advocacy and Policy Development:</strong> Working with governments to promote environmental sustainability.</li>
+        <li><strong>Reforestation and Conservation:</strong> Restoring degraded lands to combat deforestation.</li>
+        <li><strong>Water Resource Management:</strong> Ensuring access to clean water for all communities.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@cca-kenya.org">info@cca-kenya.org</a></p>
+      <p>Phone: +254 746274389</p>
+      <p>Address: Nairobi, Kenya</p>
+      <form id="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Climate and Communities Alliance. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
